@@ -1,0 +1,200 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #2C2C2C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 6%;
+}
+
+.nav-logo img {
+    width: 140%;
+}
+
+.nav-buscador img {
+    width: 140%;
+}
+
+header {
+    background-image: url(../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 95vh;
+}
+
+.seccion-1 {
+    align-items: end;
+    padding: 18% 6%;
+}
+
+.seccion-1-titulo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 9.5rem;
+}
+
+.seccion-1-parrafo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    max-width: 900px;
+}
+
+.seccion-1-boton {
+    background-color: #FF6309;
+    color: white;
+    border: none;
+    padding: 0.5% 5.5%;
+    font-size: 2.9rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.seccion-2 {
+    background-color: #FF6309;
+    padding: 6% 0%;
+}
+
+.seccion-2-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.seccion-2-titulo {
+    font-size: 6rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccion-2-parrafo {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    max-width: 1150px;
+    margin-top: 2%;
+}
+
+.seccion-2-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 4%;
+}
+
+.horizontal-tarjeta-1 img {
+    width: 100%;
+}
+
+.horizontal-tarjeta-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #2C2C2C;
+    color: white;
+    width: 24%;
+}
+.tarjeta-1-titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-top: 5%;
+}
+.tarejta-1-parrafo{
+    font-family: 'Monserat', sans-serif;
+    font-size: 2.5rem;
+    max-width: 500px;
+    font-weight: 100;
+    margin: 5% 0%;
+}
+
+.seccion-3 {
+    background-color: hsl(0, 0%, 17%);
+    color: white;
+    padding: 6% 0%;
+}
+
+.seccion-3-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-3-titulo {
+    font-size: 6rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccion-3-parrafo {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    max-width: 1150px;
+    margin-top: 2%;
+}
+
+.seccion-3-horizontal {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+.horizontal-carta-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 55vh;
+    background-color: #FF6309;
+    border-radius: 10px;
+    width: 24%;
+    padding: 3% 0 0 0;
+}
+
+.horizontal-carta-1 img {
+    width: 25%;
+}
+
+.carta-1-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+.carata-1-parrafo {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 500px;
+}
+
+.carta-1-boton-1 {
+    background-color: #2C2C2C;
+    color: white;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    padding: 3% 35%;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #FF6309;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.footer-texto {
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
