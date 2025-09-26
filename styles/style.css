@@ -28,7 +28,6 @@ header {
 }
 
 .seccion-1 {
-    align-items: end;
     padding: 18% 6%;
 }
 
@@ -103,13 +102,15 @@ header {
     color: white;
     width: 24%;
 }
-.tarjeta-1-titulo{
+
+.tarjeta-1-titulo {
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
     font-weight: lighter;
     margin-top: 5%;
 }
-.tarejta-1-parrafo{
+
+.tarejta-1-parrafo {
     font-family: 'Monserat', sans-serif;
     font-size: 2.5rem;
     max-width: 500px;
@@ -197,4 +198,158 @@ footer {
     font-weight: lighter;
     font-family: 'Montserrat', sans-serif;
     color: white;
+}
+
+@media (max-width: 1279px) {
+    header {
+        background-size: contain;
+        background-position: top;
+        height: 29.4vh;
+    }
+
+    .seccion-1 {
+        padding: 24% 6%;
+    }
+
+    .seccion-1-titulo {
+        font-size: 4.5rem;
+    }
+
+    .seccion-1-parrafo {
+        font-size: 1.3rem;
+        max-width: 500px;
+    }
+
+    .seccion-1-boton {
+        padding: 0.5% 5.5%;
+        font-size: 1.4rem;
+    }
+
+    .seccion-2-titulo {
+        font-size: 4.5rem;
+    }
+
+    .seccion-2-parrafo {
+        font-size: 1.3rem;
+        max-width: 600px;
+    }
+
+    .tarjeta-1-titulo {
+        font-size: 2rem;
+    }
+
+    .tarejta-1-parrafo {
+        font-size: 1.3rem;
+    }
+
+    .seccion-3-titulo {
+        font-size: 4.5rem;
+    }
+
+    .seccion-3-parrafo {
+        font-size: 1.3rem;
+        max-width: 600px;
+    }
+
+    .horizontal-carta-1 {
+        height: 20vh;
+    }
+
+    .carta-1-titulo {
+        font-size: 2rem;
+    }
+
+    .carata-1-parrafo {
+        font-size: 1.3rem;
+    }
+
+    .carta-1-boton-1 {
+        padding: 3% 30%;
+        font-size: 1.3rem;
+    }
+
+    .footer-texto {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 920px) {
+    header {
+        height: 24.5vh;
+    }
+
+    .horizontal-carta-1 {
+        width: 27%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 15.4vh;
+    }
+
+    .seccion-1 {
+        padding: 1% 6%;
+        text-align: center;
+    }
+
+    .seccion-2-horizontal {
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+
+    }
+
+    .horizontal-tarjeta-1 {
+        width: 50%;
+    }
+
+    .seccion-3-horizontal {
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+    }
+
+    .horizontal-carta-1 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 108vw;
+    }
+
+    header {
+        height: 12.1vh;
+    }
+
+    .seccion-1-titulo {
+        font-size: 3rem;
+    }
+
+    .seccion-1-parrafo {
+        font-size: 1.2rem;
+    }
+
+    .seccion-2-titulo {
+        font-size: 3rem;
+    }
+
+    .seccion-2-parrafo {
+        font-size: 1.2rem;
+    }
+    .seccion-2-horizontal{
+        height: 70vh;
+       }
+    .seccion-3-titulo {
+        font-size: 3rem;
+    }
+
+    .seccion-3-parrafo {
+        font-size: 1.2rem;
+    }
+       .seccion-3-horizontal{
+        height: 70vh;
+       }
 }
